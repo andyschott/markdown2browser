@@ -6,7 +6,8 @@ require 'kramdown'
 require 'launchy'
 
 if ARGV.size < 1
-  puts "usage here!"
+  puts "Usage:"
+  puts "markdown2browser path_to_markdown_file"
   exit
 end
 
